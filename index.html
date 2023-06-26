@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Explained</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, p, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+
+
+    h1 {
+      color: #000000;
+      font-size: 28px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+   
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+      list-style-position: inside;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+    
+
+  <main>
+    <h1>CSS Explained</h1>
+    <h2>Introduction</h2>
+    <p>CSS (Cascading Style Sheets) is a stylesheet language used for describing the look and formatting of a document written in HTML. It allows you to separate the presentation and layout of a web page from its structure.</p>
+
+    <h2>Benefits of CSS</h2>
+    <p>Here are some benefits of using CSS:</p>
+    <ul>
+      <li>Consistency: CSS enables consistent styling across multiple web pages.</li>
+      <li>Efficiency: CSS allows you to apply styles to multiple elements at once.</li>
+      <li>Maintainability: By separating style from structure, it's easier to update and maintain a website.</li>
+    </ul>
+
+    <h2>How to Use CSS</h2>
+    <p>To use CSS, you need to define styles and apply them to HTML elements. Here's an example:</p>
+
+    <pre>
+      <code>
+        &lt!-- HTML code --&gt
+        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        
+        /* CSS code */
+        h1 {
+          color: red;
+          font-size: 24px;
+        }
+      </code>
+    </pre>
+
+    <p>In the example above, the CSS code selects the <code>&lt;h1&gt;</code> element and applies styles to it. The <code>color</code> property sets the text color to red, and the <code>font-size</code> property sets the font size to 24 pixels.</p>
+
+    <h2>Selectors</h2>
+    <p>CSS uses selectors to target HTML elements. Here are some commonly used selectors:</p>
+    <ul>
+      <li>Element selector: <code>h1</code> selects all <code>&lt;h1&gt;</code> elements.</li>
+      <li>Class selector: <code>.container</code> selects all elements with the class "container".</li>
+      <li>ID selector: <code>#header</code> selects the element with the ID "header".</li>
+    </ul>
+
+    <h2>Properties and Values</h2>
+    <p>CSS properties define the appearance of an element, and values specify how the properties should be applied. Here are some commonly used properties:</p>
+    <ul style="display: inline;">
+      <li>color: sets the text color. here is an example:<p style="color: red; display: inline;"> Red Color Paragraph</p></li> 
+      <li>font-size: sets the font size. here is an example:<p style="font-size: 20px; display: inline;"> Large Font Paragraph</p></li>
+      <li>background-color: sets the background color. here is an example:<p style="background-color: red; display: inline;"> Red Background Paragraph</p></li>
+      <li>margin: sets the margin around an element. here is an example:<p style="margin: 10px; border: 1px solid #fddd9b; display: inline;"> Paragraph With Margin</p></li>
+      <li>padding: sets the padding inside an element. here is an example:<p style="padding: 10px; border: 1px solid #fddd9b; display: inline;"> Paragraph with padding</p></li>
+    </ul>
+  </main>
+
+ 
+</body>
+</html>
